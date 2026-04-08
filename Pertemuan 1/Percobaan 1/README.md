@@ -11,7 +11,7 @@ mati dan berikan penjelasan disetiap baris kode nya dalam bentuk README.md
 
 source code
 
-```
+```C++
 const int ledPin = 6;           // Gunakan pin 6 untuk LED
 int timeDelay = 1000;           // Set jeda awal 1000ms (1 detik)
 int phase = 0;                  // Set fase awal ke 0 (fase cepat)
