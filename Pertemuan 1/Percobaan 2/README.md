@@ -12,5 +12,50 @@
 dan berikan penjelasan disetiap baris kode nya dalam bentuk README.md!
 
 ```c++
+int timer = 300; // waktu delay untuk perpindahan nyala LED
 
+void setup() {
+  // inisialisasi pin 2 sampai 7 sebagai OUTPUT
+  for (int ledPin = 2; ledPin <= 7; ledPin++) {
+    pinMode(ledPin, OUTPUT);
+  }
+}
+
+void loop() {
+  // Nyalakan 3 Led kiri
+  for (int ledPin = 2; ledPin <= 4; ledPin++) {
+    digitalWrite(ledPin, HIGH); // nyalakan LED kiri
+  }
+
+  for (int ledPin = 5; ledPin <= 7; ledPin++) {
+    digitalWrite(ledPin, LOW); // pastikan LED kanan mati
+  }
+
+  delay(timer); // tunggu beberapa saat
+
+  // Matikan Led
+  for (int ledPin = 2; ledPin <= 7; ledPin++) {
+    digitalWrite(ledPin, LOW);
+  }
+
+  delay(200); // jeda kecil agar perpindahan terlihat jelas
+
+  // Menyalakan 3 Led kanan
+  for (int ledPin = 5; ledPin <= 7; ledPin++) {
+    digitalWrite(ledPin, HIGH); // nyalakan LED kanan
+  }
+
+  for (int ledPin = 2; ledPin <= 4; ledPin++) {
+    digitalWrite(ledPin, LOW); // pastikan LED kiri mati
+  }
+
+  delay(timer); // tunggu beberapa saat
+
+  //Matikan Semua LED
+  for (int ledPin = 2; ledPin <= 7; ledPin++) {
+    digitalWrite(ledPin, LOW);
+  }
+
+  delay(200); // jeda sebelum mengulang loop
+}
 ```
