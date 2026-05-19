@@ -1,22 +1,22 @@
-\# Laporan Praktikum Sistem Mikrokontroler
+# Laporan Praktikum Sistem Mikrokontroler
 
-\# Modul 6: Interrupt dan Timer
-
-
-
-Nama: Khoirul Rosyid Gunawan  
-
-NIM: H1H024036  
+# Modul 6: Interrupt dan Timer
 
 
 
-\---
+Nama: MUHAMMAD IMAM SALAFUDIN  
 
-\## pertanyaan Praktikum 6 Percobaan 1
+NIM: H1H024067  
 
 
 
-1\. Jelaskan proses bagaimana tombol dapat mengubah kondisi LED menggunakan
+---
+
+## pertanyaan Praktikum 6 Percobaan 1
+
+
+
+1. Jelaskan proses bagaimana tombol dapat mengubah kondisi LED menggunakan
 
 interrupt!!
 
@@ -32,7 +32,7 @@ Di dalam ISR tersebut, nilai variabel `ledState` dibalik (\*toggle\*). Setelah I
 
 
 
-2\. Apa fungsi attachInterrupt() pada program tersebut?
+2. Apa fungsi attachInterrupt() pada program tersebut?
 
 
 
@@ -46,7 +46,7 @@ fungsi apa yang harus dijalankan saat pemicu terjadi (`tombolInterrupt`), dan mo
 
 &#x20;   
 
-3\. Mengapa pada ISR tidak disarankan menggunakan delay() dan Serial.print()?
+3. Mengapa pada ISR tidak disarankan menggunakan delay() dan Serial.print()?
 
 
 
@@ -62,7 +62,7 @@ Hal yang sama berlaku untuk `Serial.print()` yang membutuhkan waktu komputasi pa
 
 
 
-4\. Apa fungsi keyword volatile pada variabel ledState?
+4. Apa fungsi keyword volatile pada variabel ledState?
 
 
 
@@ -76,7 +76,7 @@ sehingga mikrokontroler dipaksa untuk selalu mengambil dan membaca nilai terbaru
 
 
 
-5\. Pada percobaan digunakan mode interrupt FALLING. Modifikasikan program
+5. Pada percobaan digunakan mode interrupt FALLING. Modifikasikan program
 
 menggunakan mode interrupt lain (RISING, CHANGE, atau LOW) kemudian:
 
