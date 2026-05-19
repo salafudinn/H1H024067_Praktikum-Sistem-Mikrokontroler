@@ -136,13 +136,13 @@ void loop() {
 
 
 
-\## pertanyaan Praktikum 6 Percobaan 2
+ pertanyaan Praktikum 6 Percobaan 2
 
 
 
 
 
-1\. \*\*Jelaskan bagaimana fungsi millis() bekerja pada program tersebut!\*\*
+1.Jelaskan bagaimana fungsi millis() bekerja pada program tersebut!
 
 
 
@@ -158,7 +158,7 @@ program akan mengubah logika lampu LED lalu memperbarui rekam jejak waktunya den
 
 
 
-2\. \*\*Apa perbedaan utama antara delay() dan millis()?\*\*
+2.Apa perbedaan utama antara delay() dan millis()?
 
 
 
@@ -180,7 +180,7 @@ Mikrokontroler bebas terus melanjutkan pembacaan baris kode secara berulang-ulan
 
 
 
-3\. \*\*Mengapa metode millis() disebut non-blocking?\*\*
+3.Mengapa metode millis() disebut non-blocking?\
 
 
 
@@ -194,7 +194,7 @@ Pada sisa milidetik lainnya, mikrokontroler akan mengabaikan blok if tersebut da
 
 
 
-&#x20;4. \*\*Modifikasi program agar:
+&#x20;4. Modifikasi program agar:
 
 • LED pertama berkedip setiap 1 detik
 
@@ -202,7 +202,7 @@ Pada sisa milidetik lainnya, mikrokontroler akan mengabaikan blok if tersebut da
 
 • Tanpa menggunakan delay()
 
-Berikan penjelasan setiap baris program dalam bentuk README.md\*\*
+Berikan penjelasan setiap baris program dalam bentuk README.md
 
 
 
